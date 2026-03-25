@@ -49,4 +49,4 @@ while values:
         print("Product:", sell["product"])
         print("Quantity sold:", sell["quantity"])
     print(f"Your total is: {total_cost}")
-        exit ()
+    exit ()
