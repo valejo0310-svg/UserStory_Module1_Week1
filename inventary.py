@@ -22,3 +22,16 @@ while values:
         
         print("Please use the correct values")
         continue  
+            
+    sell = {
+        "product": product,
+        "price": price,
+        "quantity": quantity
+    }
+
+    sales.append(sell)
+
+    total_cost = 0
+
+    for sell in sales:
+        total_cost += sell["price"] * sell["quantity"]
