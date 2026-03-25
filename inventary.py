@@ -35,3 +35,12 @@ while values:
 
     for sell in sales:
         total_cost += sell["price"] * sell["quantity"]
+
+    print("=" * 60)
+    print("TOTAL PURCHASE".center(60))
+    print("=" * 60)
+
+    for sell in sales:
+        print("Product:", sell["product"])
+        print("Quantity sold:", sell["quantity"])
+    print(f"Your total is: {total_cost}")
